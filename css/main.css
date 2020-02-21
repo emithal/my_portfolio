@@ -7,11 +7,13 @@
   transition: all 0.5s ease-out;
 }
 .menu-btn .btn-line {
-  width: 56px;
-  height: 6px;
+  width: 65px;
+  height: 8px;
   margin: 0 0 5px 0;
   background: #fff;
   transition: all 0.5s ease-out;
+  border: solid;
+  border-color: black;
 }
 .menu-btn.close {
   transform: rotate(180deg);
@@ -80,6 +82,11 @@
 .menu .nav-item.current > a {
   color: black;
   font-weight: bold;
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .menu .nav-link {
   display: inline-block;
